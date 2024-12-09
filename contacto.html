@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactanos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="Asset 1.png" alt="Monte de Olivos">
+            </a>
+            <button class="menu-toggle" aria-label="Abrir menú">
+            </button>
+            <ul>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="unlugar.html">Un lugar para ti</a></li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+                <li><a href="generosidad.html">Generosidad</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="contact-header">
+          <h1>Contáctanos</h1>
+          <p>Estamos aquí para ayudarte. Si tienes preguntas o necesitas información, ¡escríbenos!</p>
+        </section>
+    
+        <section class="contact-info">
+          <h2>Información de Contacto</h2>
+          <p><strong>Teléfono:</strong> <a href="tel:+52 773 125 0714">+52 773 125 0714</a></p>
+          <p><strong>Correo:</strong> <a href="mailto: monteolivos@gmail.com"> monteolivos@gmail.com.com </a></p>
+          <p><strong>Dirección:</strong> Calle Los Olivos, Pedregoso, Huichapan, Hidalgo.</p>
+        </section>
+    
+        <section class="contact-form">
+            <h2>Envíanos un Mensaje</h2>
+            <form action="/send-message" method="post">
+              <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+              </div>
+          
+              <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+              </div>
+          
+              <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+              </div>
+          
+              <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+          </section>
+    
+        <section class="hours">
+          <h2>Horarios de Atención</h2>
+          <p><strong>Lunes a Viernes:</strong> 9:00 AM - 6:00 PM</p>
+          <p><strong>Sábados:</strong> Cerrado</p>
+          <p><strong>Domingos:</strong> 1:00 PM - 5:00 PM</p>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-content">
+            <a href="index.html" class="footer-logo">
+                <img src="Asset 2.png" alt="Monte de Olivos">
+            </a>
+            <ul class="footer-links">
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="unlugar.html">Un lugar para ti</a></li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+                <li><a href="generosidad.html">Generosidad</a></li>
+            </ul>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/share/12DFuNcc4Rq/?mibextid=LQQJ4d" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/monte_olivos?igsh=bDF3OWhmNGZiNm16" target="_blank">Instagram</a></li>
+                <li><a href="https://chat.whatsapp.com/BzUwIYxdxDPCQxsqDQdnV0" target="_blank">WhatsApp</a></li>
+            </ul>
+        </div>
+        </footer>
+
+    </body>
+    </html>
